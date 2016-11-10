@@ -43,3 +43,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+<!--404 page-->
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
