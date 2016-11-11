@@ -47,4 +47,5 @@ ul.posts li {
 img.center {
     height: 100px;
     width: 100px;
+    display: block;
 }
