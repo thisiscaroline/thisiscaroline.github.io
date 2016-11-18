@@ -6,11 +6,18 @@ nav ul li {
     display: inline;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
-    border: 1px solid #183f49;
     padding: 10px;
 }
 
+.siteheader {
+	margin: auto;
+	margin-top: 2%;
+	height: 27%;
+	width: 27%;
+}
+
 .navbar {
-	margin-top: 20%;
-	margin-left: 31%;
+	text-align: center;
+	margin-top: 2%;
+	margin-right: 4%;
 }
