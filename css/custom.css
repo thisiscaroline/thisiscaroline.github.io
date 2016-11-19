@@ -22,7 +22,7 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.siteheader {
+#siteheader {
 	float: right;
 	margin-right: 6%;
 	margin-top: 5%;
@@ -30,11 +30,20 @@ h1 {
 	width: 35%;
 }
 
-.navbar {
+#navbar {
 	float: left;
 	text-align: left;
 	margin-top: 5%;
 	margin-left: 3%;
+}
+
+#copyright {
+	font-size: 75%;
+	position: fixed;
+	left: 50%;
+	bottom: 20px;
+	transform: translate(-50%, -50%);
+	margin: 0 auto;
 }
 
 .blurb {
@@ -48,15 +57,6 @@ h1 {
 
 .blurb:hover {
 	overflow-y: scroll;
-}
-
-.copyright {
-	font-size: 75%;
-	position: fixed;
-	left: 50%;
-	bottom: 20px;
-	transform: translate(-50%, -50%);
-	margin: 0 auto;
 }
 
 ::-webkit-scrollbar {
