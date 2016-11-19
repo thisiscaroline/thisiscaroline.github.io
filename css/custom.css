@@ -22,6 +22,7 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .siteheader {
 	float: right;
 	margin-right: 6%;
@@ -40,10 +41,19 @@ h1 {
 .blurb {
 	width: 525px;
 	height: 25em;
+	overflow: hidden;
+	padding-right: 5%;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.blurb:hover {
+	width: 525px;
+	height: 25em;
 	overflow-y: scroll;
 	padding-right: 5%;
 	margin-left: 10%;
-	margin-top: 4%;
+	margin-top: 3%;
 }
 
 .copyright {
