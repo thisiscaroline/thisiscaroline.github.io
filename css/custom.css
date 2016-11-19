@@ -15,19 +15,21 @@ h1 {
 }
 
 .siteheader {
-	margin: auto;
-	margin-top: 2%;
-	height: 27%;
-	width: 27%;
+	float: right;
+	margin-right: 6%;
+	margin-top: 5%;
+	height: 35%;
+	width: 35%;
 }
 
 .navbar {
-	text-align: center;
-	margin-top: 2%;
-	margin-right: 3.7%;
+	float: left;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: 3%;
 }
 
 .cpost {
-	text-align: center;
-	margin-top: 2%;
+	margin-top: 5%;
+	margin-left: 10%;
 }
