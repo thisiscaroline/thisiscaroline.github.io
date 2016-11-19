@@ -46,6 +46,10 @@ h1 {
 	margin: 0 auto;
 }
 
+#contactbar {
+	/* TODO: add icons, buttons, etc*/
+}
+
 .blurb {
 	width: 525px;
 	height: 25em;
