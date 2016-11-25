@@ -13,7 +13,7 @@ a:hover {
 
 nav ul li {
     display: inline;
-    font-family: 'Josefin Sans', sans-serif; /**/
+    font-family: 'Josefin Sans', sans-serif;
     /* font-family: 'Lobster Two', cursive; */
     font-size: 35px;
     padding: 7px;
@@ -23,6 +23,10 @@ h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	/* font-family: 'Lobster Two', cursive;
 	font-weight: 100; */
+}
+
+p {
+	font-family: 'Merriweather', serif;
 }
 
 #siteheader {
@@ -53,7 +57,7 @@ h1 {
 
 .blurb {
 	width: 525px;
-	height: 25em;
+	height: 23em;
 	overflow: hidden;
 	padding-right: 5%;
 	margin-left: 10%;
