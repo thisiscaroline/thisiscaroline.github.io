@@ -19,7 +19,7 @@ nav ul li {
     padding: 7px;
 }
 
-h1 {
+h1, h2, h4 {
 	font-family: 'Josefin Sans', sans-serif;
 	/* font-family: 'Lobster Two', cursive;
 	font-weight: 100; */
@@ -31,6 +31,21 @@ p, ul li, h3 {
 
 h3 {
 	font-weight: 100;
+}
+
+ul {
+	list-style-type: none;
+}
+
+label {
+	display: block;
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+span {
+	margin-left: 5px;
 }
 
 #siteheader {
@@ -72,6 +87,21 @@ h3 {
 
 .blurb:hover {
 	overflow-y: scroll;
+}
+
+.comment {
+	font-size: 9px;
+	display: inline;
+	margin-left: 1%;
+}
+
+.comment:hover {
+	font-size: 12px;
+}
+
+.subheader {
+	font-size: 12px;
+	margin-top: -10px;
 }
 
 .icons img {
