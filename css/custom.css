@@ -57,6 +57,9 @@ h3 {
 
 #lemony {
 	float: left;
+	margin-bottom: -25px;
+	margin-top: -15px;
+	margin-left: -3px;
 }
 
 .blurb {
