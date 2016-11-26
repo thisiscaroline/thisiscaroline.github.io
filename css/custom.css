@@ -59,6 +59,11 @@ h3 {
 	/* TODO: add icons, buttons, etc*/
 }
 
+#lemony {
+	float: left;
+	padding: -5px;
+}
+
 .blurb {
 	width: 535px;
 	height: 23em;
