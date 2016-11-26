@@ -55,17 +55,12 @@ h3 {
 	margin: 0 auto;
 }
 
-#contactbar {
-	/* TODO: add icons, buttons, etc*/
-}
-
 #lemony {
 	float: left;
-	padding: -5px;
 }
 
 .blurb {
-	width: 535px;
+	width: 550px;
 	height: 23em;
 	overflow: hidden;
 	padding-right: 5%;
@@ -74,6 +69,12 @@ h3 {
 
 .blurb:hover {
 	overflow-y: scroll;
+}
+
+.icons img {
+	height: 75px;
+	padding: 5px;
+	padding-top: 10px;
 }
 
 ::-webkit-scrollbar {
