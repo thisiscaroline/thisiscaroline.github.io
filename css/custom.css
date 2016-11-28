@@ -7,9 +7,7 @@ a, a:visited, a:active {
 	-webkit-transition:.5s;
 }
 
-a:hover {
-	color: #808080;
-}
+a:hover { color: #808080; }
 
 nav ul li {
     display: inline;
@@ -25,17 +23,11 @@ h1, h2, h4 {
 	font-weight: 100; */
 }
 
-p, ul li, h3 {
-	font-family: 'Merriweather', serif;
-}
+p, ul li, h3 { font-family: 'Merriweather', serif; }
 
-h3 {
-	font-weight: 100;
-}
+h3 { font-weight: 100; }
 
-ul {
-	list-style-type: none;
-}
+ul { list-style-type: none; }
 
 label {
 	display: block;
@@ -44,9 +36,7 @@ label {
 	text-align: right;
 }
 
-span {
-	margin-left: 5px;
-}
+span { margin-left: 5px; }
 
 #siteheader {
 	float: right;
@@ -85,9 +75,7 @@ span {
 	margin-left: 10%;
 }
 
-.blurb:hover {
-	overflow-y: scroll;
-}
+.blurb:hover { overflow-y: scroll; }
 
 .comment {
 	font-size: 9px;
@@ -95,9 +83,7 @@ span {
 	margin-left: 1%;
 }
 
-.comment:hover {
-	font-size: 12px;
-}
+.comment:hover { font-size: 12px; }
 
 .subheader {
 	font-size: 12px;
@@ -114,10 +100,19 @@ span {
    -webkit-transition: opacity .35s ease-in-out;
 }
 
-.icons img:hover {
-	opacity: 0.5;
+.icons img:hover { opacity: 0.5; }
+
+.skillbox ul {
+	font-family: 'Merriweather', serif;
+	list-style-type: none;
+	margin-bottom: 10px;
 }
 
-::-webkit-scrollbar {
-    background: transparent;
+.skillbox ul li {
+	float: left;
+	padding: 5px;
+	width: 110px;
+	word-wrap: break-word;
 }
+
+::-webkit-scrollbar { background: transparent; }
