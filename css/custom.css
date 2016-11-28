@@ -108,6 +108,14 @@ span {
 	height: 75px;
 	padding: 5px;
 	padding-top: 10px;
+	opacity: 1;
+	transition: opacity .35s ease-in-out;
+   -moz-transition: opacity .35s ease-in-out;
+   -webkit-transition: opacity .35s ease-in-out;
+}
+
+.icons img:hover {
+	opacity: 0.5;
 }
 
 ::-webkit-scrollbar {
