@@ -67,6 +67,13 @@ span { margin-left: 5px; }
 	margin-left: -3px;
 }
 
+#contactbox {
+	width: 550px;
+	height: 23em;
+	padding-right: 5%;
+	margin-left: 10%;
+}
+
 .blurb {
 	width: 550px;
 	height: 23em;
